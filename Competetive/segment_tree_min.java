@@ -1,6 +1,21 @@
 import java.io.*;
 import java.util.*;
 
+//Range sum queries
+/*Ques->
+Min
+max
+sum
+GCD/LCM
+First element greater than give element
+*/
+
+/*
+Lchild = 2*i+1;
+Rchild = 2*i+2;
+parent = (i-1)/2;
+*/
+
 
 public class Main{
 
@@ -79,6 +94,26 @@ public class Main{
     Scanner scn = new Scanner(System.in);
     int N = scn.nextInt();
     int arr[] = new int[N];
-    
+    for(int i=0;i<N;i++){
+      arr[i]=scn.nextInt();
+    }
+
+    segmentTree_min segTree = new segmentTree_min(arr);
+    segTree.construct(0,0,N-1);
+
+    int q = scn.nextInt();
+    for(int i=0;i<q;i++){
+      int idx = scn.nextInt();
+      int val = scn.nextInt();
+      int l = scn.nextInt();
+      int r = scn.nextInt();
+
+      segTree.update(0,0,N-1,idx, val);
+      System.out.println("arr-> "+Arrays.toString(arr));
+      System.out.println(segTree.find(0,0,N-1,l,r));
+    }
+
+
+
   }
 }
