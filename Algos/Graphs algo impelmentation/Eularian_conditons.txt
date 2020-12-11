@@ -1,0 +1,18 @@
+
+ UNDIRECTED GRAPH:-
+    Eularian Path :
+                    (all have even degree) OR (2 odd degree & (V-2) even degree)
+                    -> 2 odd: start from any odd degree Node.
+                    -> No odd : start from any point(Eularian ckt);
+
+    Eularian Circuit: 
+                    all even degree
+                    -> start from any point
+
+DIRECTED GRAPH :-
+    Eularian Path :
+                    (Indegree & Outdegree of each node must be equal) OR (One node has Indegree = Outdegree+1  && Outdegree = Indegree+1)
+    
+    Eularian Circuit: 
+                    (Indegree & Outdegree of each node must be equal)
+
