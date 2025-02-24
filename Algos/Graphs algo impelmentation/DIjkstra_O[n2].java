@@ -5,7 +5,7 @@ import java.io.*;
   
 class Main { 
     static final int V = 9; 
-    int minDistance(int dist[], Boolean visited[]) 
+    static int minDistance(int dist[], Boolean visited[]) 
     { 
         // Initialize min value 
         int min = Integer.MAX_VALUE, min_index = -1; 
@@ -21,7 +21,7 @@ class Main {
     } 
   
     
-    void printSolution(int dist[]) 
+    static void printSolution(int dist[]) 
     { 
         System.out.println("Vertex \t\t Distance from Source"); 
         for (int i = 0; i < V; i++) 
@@ -29,7 +29,7 @@ class Main {
     } 
   
 
-    void dijkstra(int graph[][], int S) 
+    static void dijkstra(int graph[][], int S) 
     { 
         int dist[] = new int[V]; 
         Boolean visited[] = new Boolean[V]; 
@@ -79,9 +79,8 @@ class Main {
                                       { 0, 0, 0, 0, 0, 2, 0, 1, 6 }, 
                                       { 8, 11, 0, 0, 0, 0, 1, 0, 7 }, 
                                       { 0, 0, 2, 0, 0, 0, 6, 7, 0 } }; 
-        ShortestPath t = new ShortestPath(); 
 
         //O[V2]
-        t.dijkstra(graph, 0); 
+        dijkstra(graph, 0); 
     } 
 } 

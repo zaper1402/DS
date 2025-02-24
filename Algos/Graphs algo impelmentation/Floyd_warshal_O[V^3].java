@@ -13,27 +13,27 @@ public class Floyd_warshal_O[V^3] {
             }
         }
     	     
-            //Integermediate Node
-            for(int k=0;k<V;k++){
-                //row
-                for(int i=0;i<V;i++){
-                    //col
-                    for(int j=0;j<V;j++){
-                        if(arr[i][k]!=Integer.MAX_VALUE && arr[k][j]!=Integer.MAX_VALUE)
-                            arr[i][j] = Math.min(arr[i][j],arr[i][k]+arr[k][j]);
-                    }
-                }
-            }
-            
-
-            //Print
+        //Integermediate Node
+        for(int k=0;k<V;k++){
+            //row
             for(int i=0;i<V;i++){
+                //col
                 for(int j=0;j<V;j++){
-                    if(arr[i][j]==10000000) System.out.print("INF"+" ");
-                    else System.out.print(arr[i][j]+" ");
+                    if(arr[i][k]!=Integer.MAX_VALUE && arr[k][j]!=Integer.MAX_VALUE)
+                        arr[i][j] = Math.min(arr[i][j],arr[i][k]+arr[k][j]);
                 }
-                System.out.println();
             }
+        }
+        
+
+        //Print
+        for(int i=0;i<V;i++){
+            for(int j=0;j<V;j++){
+                if(arr[i][j]==10000000) System.out.print("INF"+" ");
+                else System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();
+        }
             
         
 	 

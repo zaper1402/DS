@@ -1,6 +1,7 @@
 import java.io.*; 
   
-class Bellman_Ford_O[VE] { 
+//O(VE)
+class Bellman_Ford_O { 
     // A class to represent a weighted edge in graph 
     static class Edge { 
         int src, dest, weight; 

@@ -16,7 +16,7 @@ public static void main(String[] args){
   //Longest increasing subseq
   // Brute->  create all subseq then check for inc: if inc update val of omax;
   int ans11 = lis_recurse(arr,0,Integer.MIN_VALUE,0); 
-  int ans12 = lis_mem(arr,0,Integer.MIN_VALUE,new int[N]); 
+  int ans12 = lis_mem(arr,0,Integer.MIN_VALUE,new int[N]); // thi 
   int ans13 = lis_tab(arr); 
   int ans14 = lis_tab_nlogn(arr); 
   
