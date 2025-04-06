@@ -33,11 +33,11 @@ This repository contains implementations of various graph algorithms with their 
 - **Explanation**: Articulation points (or cut vertices) are vertices that, when removed, increase the number of connected components in the graph. Bridges are edges that, when removed, increase the number of connected components.
 
 ### 2.3 Strongly Connected Components (Directed Graphs)
-- **Implementation**: [KosaRaju_O[V+E].java](./KosaRaju_O[V+E].java)
+- **Implementation**: [KosaRaju_O[V+E].java](./KosaRaju_O[V+E].java), [Tarjan_O[V+E].java](./Tarjan_O[V+E].java)
 - **Use Case**: Finds strongly connected components in a directed graph.
 - **Time Complexity**: O(V + E)
 - **Space Complexity**: O(V) for the stack and visited arrays.
-- **Explanation**: A strongly connected component is a subgraph where every vertex is reachable from every other vertex in that subgraph. Kosaraju's algorithm uses two DFS passes to identify these components.
+- **Explanation**: A strongly connected component is a subgraph where every vertex is reachable from every other vertex in that subgraph. Kosaraju's algorithm uses two DFS passes to identify these components. Tarjan's algorithm finds strongly connected components in a single DFS pass by keeping track of the "lowlink" values, making it more efficient in practice though it has the same asymptotic complexity as Kosaraju's algorithm.
 
 ## 3. Topological Ordering (Directed Acyclic Graphs)
 
