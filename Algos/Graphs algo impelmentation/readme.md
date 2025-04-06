@@ -101,6 +101,7 @@ This repository contains implementations of various graph algorithms with their 
 - **Time Complexity**: O(E log E) or O(E log V) due to sorting edges.
 - **Space Complexity**: O(V + E) for the edge list and union-find data structure.
 - **Explanation**: A Minimum Spanning Tree is a subset of edges that forms a tree including all vertices, where the total weight of all edges is minimized. Kruskal's algorithm builds the MST by adding edges in order of increasing weight.
+- **Note**: The implementation uses a union-find data structure to efficiently manage and merge disjoint sets of vertices.
 
 ### 5.2 Prim's Algorithm
 - **Implementation**: [Prims_O[N2].java](./Prims_O[N2].java), [Prims_O[ElogV].java](./Prims_O[ElogV].java)
