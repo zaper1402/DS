@@ -1,6 +1,18 @@
 import java.io.*; 
   
-//O(VE)
+/**
+ * Bellman-Ford Algorithm Implementation
+ * Time Complexity: O(VE) where V is number of vertices and E is number of edges
+ * 
+ * Purpose:
+ * - Finds shortest paths from a source vertex to all other vertices
+ * - Can handle graphs with negative weight edges
+ * - Can detect negative weight cycles in the graph
+ * 
+ * Key advantages over Dijkstra's algorithm:
+ * - Works with negative edge weights
+ * - Detects negative cycles (where Dijkstra's fails)
+ */
 class Bellman_Ford_O { 
     // A class to represent a weighted edge in graph 
     static class Edge { 
@@ -25,27 +37,41 @@ class Bellman_Ford_O {
             for (int i = 0; i < e; ++i) 
                 edge[i] = new Edge(); 
         } 
-
     }
   
+    /** 
+     * Algorithm steps:
+     * 1. Initialize distances from source to all vertices as infinite
+     * 2. Set distance to source vertex as 0
+     * 3. Relax all edges |V|-1 times (where |V| is the number of vertices)
+     * 4. Check for negative-weight cycles
+     */
     public static void BellmanFord(Graph graph, int S) { 
         int V = graph.V;
         int E = graph.E;
         int[] dist = new int[V];
+        
+        // Step 1: Initialize distances from source to all vertices as infinite
         for(int i=0;i<V;i++) dist[i]=Integer.MAX_VALUE;
+        
+        // Step 2: Set distance to source vertex as 0
         dist[S]=0;
 
+        // Step 3: Relax all edges |V|-1 times
+        // This guarantees shortest paths if there are no negative cycles
         for(int i=0;i<V-1;i++){
             for(int j=0;j<E;j++){
                 int src= graph.edge[j].src;
                 int dest = graph.edge[j].dest;
                 int weight = graph.edge[j].weight;
 
+                // Relaxation operation - update if shorter path found
                 if(dist[src]!=Integer.MAX_VALUE) dist[dest] = Math.min(dist[src]+weight,dist[dest]);
             }
         }
 
-          //checking -ve cycle;
+        // Step 4: Check for negative-weight cycles
+        // If we can relax an edge one more time, then there's a negative cycle
         for (int j = 0; j < E; ++j) { 
             int u = graph.edge[j].src; 
             int v = graph.edge[j].dest; 
@@ -67,7 +93,7 @@ class Bellman_Ford_O {
   
     // Driver method to test above function 
     public static void main(String[] args) { 
-        int V = 5; // Number of vertices in graph 
+                int V = 5; // Number of vertices in graph 
         int E = 8; // Number of edges in graph 
   
         Graph graph = new Graph(V, E); 

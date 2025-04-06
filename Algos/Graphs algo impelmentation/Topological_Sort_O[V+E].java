@@ -17,6 +17,7 @@ public class Main {
 
       int vtces = Integer.parseInt(br.readLine());
       ArrayList<Edge>[] graph = new ArrayList[vtces];
+
       for (int i = 0; i < vtces; i++) {
          graph[i] = new ArrayList<>();
       }
@@ -32,11 +33,11 @@ public class Main {
     
       // write your code here
       boolean visited[] = new boolean[vtces];
-      ArrayList<Integer> arr = new ArrayList();
+      ArrayList<Integer> arr = new ArrayList<>();
       
       for(int i=0;i<vtces;i++){
         if(!visited[i])
-            CompileOrder(i,graph,visited,arr);
+            TopoSort(i,graph,visited,arr);
       }
       
       for(int val : arr){
@@ -45,14 +46,14 @@ public class Main {
       
    }
    
-   public static void CompileOrder(int src,ArrayList<Edge>[] graph, boolean[] visited,ArrayList<Integer> arr){
+   public static void TopoSort(int src,ArrayList<Edge>[] graph, boolean[] visited,ArrayList<Integer> arr){
        
        //mark
        visited[src]=true;
        
        //recurse
        for(Edge e:graph[src]){
-           if(!visited[e.nbr]) CompileOrder(e.nbr,graph,visited,arr);
+           if(!visited[e.nbr]) TopoSort(e.nbr,graph,visited,arr);
        }
        
        arr.add(0,src);
