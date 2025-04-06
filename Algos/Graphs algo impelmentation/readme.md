@@ -33,7 +33,7 @@ This repository contains implementations of various graph algorithms with their 
 - **Explanation**: Articulation points (or cut vertices) are vertices that, when removed, increase the number of connected components in the graph. Bridges are edges that, when removed, increase the number of connected components.
 
 ### 2.3 Strongly Connected Components (Directed Graphs)
-- **Implementation**: [KosaRaju_O[V+E].java](./KosaRaju_O[V+E].java), [Tarjan_O[V+E].java](./Tarjan_O[V+E].java)
+- **Implementation**: [KosaRaju_O[V+E].java](./KosaRaju_O[V+E].java), [Tarjan_O_VplusE.java](./Tarjan_O[V+E].java)
 - **Use Case**: Finds strongly connected components in a directed graph.
 - **Time Complexity**: O(V + E)
 - **Space Complexity**: O(V) for the stack and visited arrays.
