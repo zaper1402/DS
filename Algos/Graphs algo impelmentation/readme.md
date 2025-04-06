@@ -24,13 +24,7 @@ This repository contains implementations of various graph algorithms with their 
 - **Use Case**: Find groups of vertices that are connected to each other.
 - **Implementation**: Uses BFS or DFS traversal.
 - **Time Complexity**: O(V + E)
-
-### 2.2 Articulation Points and Bridges
-- **Implementation**: [Articulation_point_O[V+E].java](./Articulation_point_O[V+E].java)
-- **Use Case**: Finds critical nodes and edges in a graph whose removal increases the number of connected components.
-- **Time Complexity**: O(V + E)
-- **Space Complexity**: O(V) for the discovery time, low time, and visited arrays.
-- **Explanation**: Articulation points (or cut vertices) are vertices that, when removed, increase the number of connected components in the graph. Bridges are edges that, when removed, increase the number of connected components.
+- **Space Complexity**: O(V) for the visited set.
 
 ### 2.3 Strongly Connected Components (Directed Graphs)
 - **Implementation**: [KosaRaju_O[V+E].java](./KosaRaju_O[V+E].java), [Tarjan_O_VplusE.java](./Tarjan_O[V+E].java)
@@ -38,6 +32,13 @@ This repository contains implementations of various graph algorithms with their 
 - **Time Complexity**: O(V + E)
 - **Space Complexity**: O(V) for the stack and visited arrays.
 - **Explanation**: A strongly connected component is a subgraph where every vertex is reachable from every other vertex in that subgraph. Kosaraju's algorithm uses two DFS passes to identify these components. Tarjan's algorithm finds strongly connected components in a single DFS pass by keeping track of the "lowlink" values, making it more efficient in practice though it has the same asymptotic complexity as Kosaraju's algorithm.
+
+### 2.2 Articulation Points and Bridges
+- **Implementation**: [Articulation_point_O[V+E].java](./Articulation_point_O[V+E].java)
+- **Use Case**: Finds critical nodes and edges in a graph whose removal increases the number of connected components.
+- **Time Complexity**: O(V + E)
+- **Space Complexity**: O(V) for the discovery time, low time, and visited arrays.
+- **Explanation**: Articulation points (or cut vertices) are vertices that, when removed, increase the number of connected components in the graph. Bridges are edges that, when removed, increase the number of connected components.
 
 ## 3. Topological Ordering (Directed Acyclic Graphs)
 
