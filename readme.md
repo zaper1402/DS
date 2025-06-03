@@ -19,9 +19,17 @@
 ### **1. Prefix Sum Pattern**
    - **Concept**: Precompute cumulative sums to efficiently answer range queries.
    - **Example Problems**:
-     - [Range Sum Query - Immutable (LeetCode #303)](https://leetcode.com/problems/range-sum-query-immutable/)
-     - [Contiguous Array (LeetCode #525)](https://leetcode.com/problems/contiguous-array/)
-     - [Subarray Sum Equals K (LeetCode #560)](https://leetcode.com/problems/subarray-sum-equals-k/)
+      - [Range Sum Query - Immutable (LeetCode #303)](https://leetcode.com/problems/range-sum-query-immutable/)
+      - [Range Sum Query 2D - Immutable (LeetCode #304)](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+      - [Maximum Size Subarray Sum Equals k (LeetCode #325)](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+      - [Contiguous Array (LeetCode #525)](https://leetcode.com/problems/contiguous-array/)
+      - [Continuous Subarray Sum (LeetCode #523)](https://leetcode.com/problems/continuous-subarray-sum/)
+      - [Subarray Sum Equals K (LeetCode #560)](https://leetcode.com/problems/subarray-sum-equals-k/)
+      - [Binary Subarrays With Sum (LeetCode #930)](https://leetcode.com/problems/binary-subarrays-with-sum/)
+      - [Subarray Sums Divisible by K (LeetCode #974)](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
+      - [Split Array with Equal Sum (LeetCode #548)](https://leetcode.com/problems/split-array-with-equal-sum/)
+      - [Maximum Sum Rectangle in a 2D Matrix (LeetCode #363)](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+
 
 ### **2. Two Pointers Pattern**
    - **Concept**: Utilizes two pointers to traverse data structures efficiently.
