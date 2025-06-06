@@ -32,11 +32,18 @@
 
 
 ### **2. Two Pointers Pattern**
-   - **Concept**: Utilizes two pointers to traverse data structures efficiently.
+   - **Concept**: Utilises two pointers to traverse data structures efficiently.
    - **Example Problems**:
-     - [Two Sum II - Input Array is Sorted (LeetCode #167)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-     - [3Sum (LeetCode #15)](https://leetcode.com/problems/3sum/)
-     - [Container With Most Water (LeetCode #11)](https://leetcode.com/problems/container-with-most-water/)
+      - [Two Sum II - Input Array is Sorted (LeetCode #167)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+      - [3Sum (LeetCode #15)](https://leetcode.com/problems/3sum/)
+      - [Container With Most Water (LeetCode #11)](https://leetcode.com/problems/container-with-most-water/)
+      - [Remove Duplicates from Sorted Array (LeetCode #26)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+      - [Remove Element (LeetCode #27)](https://leetcode.com/problems/remove-element/)
+      - [Reverse String (LeetCode #344)](https://leetcode.com/problems/reverse-string/)
+      - [Palindrome Check (LeetCode #125)](https://leetcode.com/problems/valid-palindrome/)
+      - [Move Zeroes (LeetCode #283)](https://leetcode.com/problems/move-zeroes/)
+      - [Sort Colors (LeetCode #75)](https://leetcode.com/problems/sort-colors/)
+      - [Minimum Size Subarray Sum (LeetCode #209)](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 ### **3. Sliding Window Pattern**
    - **Concept**: Efficiently process contiguous subarrays or substrings.
