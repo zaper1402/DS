@@ -37,13 +37,13 @@
       - [Two Sum II - Input Array is Sorted (LeetCode #167)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
       - [3Sum (LeetCode #15)](https://leetcode.com/problems/3sum/)
       - [Container With Most Water (LeetCode #11)](https://leetcode.com/problems/container-with-most-water/)
-      - [Remove Duplicates from Sorted Array (LeetCode #26)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
-      - [Remove Element (LeetCode #27)](https://leetcode.com/problems/remove-element/)
-      - [Reverse String (LeetCode #344)](https://leetcode.com/problems/reverse-string/)
-      - [Palindrome Check (LeetCode #125)](https://leetcode.com/problems/valid-palindrome/)
-      - [Move Zeroes (LeetCode #283)](https://leetcode.com/problems/move-zeroes/)
-      - [Sort Colors (LeetCode #75)](https://leetcode.com/problems/sort-colors/)
+      - [Trapping Rain Water (LeetCode #42)](https://leetcode.com/problems/trapping-rain-water/)
+      - [Subarray Product Less Than K (LeetCode #713)](https://leetcode.com/problems/subarray-product-less-than-k/)
       - [Minimum Size Subarray Sum (LeetCode #209)](https://leetcode.com/problems/minimum-size-subarray-sum/)
+      - [Longest Substring with At Most Two Distinct Characters (LeetCode #159)](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+      - [Shortest Unsorted Continuous Subarray (LeetCode #581)](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
+      - [Max Consecutive Ones III (LeetCode #1004)](https://leetcode.com/problems/max-consecutive-ones-iii/)
+      - [Longest Substring Without Repeating Characters (LeetCode #3)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ### **3. Sliding Window Pattern**
    - **Concept**: Efficiently process contiguous subarrays or substrings.
