@@ -62,9 +62,17 @@
 ### **4. Fast & Slow Pointers Pattern**
    - **Concept**: Uses two pointers moving at different speeds for cycle detection.
    - **Example Problems**:
-     - [Linked List Cycle (LeetCode #141)](https://leetcode.com/problems/linked-list-cycle/)
-     - [Happy Number (LeetCode #202)](https://leetcode.com/problems/happy-number/)
-     - [Find the Duplicate Number (LeetCode #287)](https://leetcode.com/problems/find-the-duplicate-number/)
+      - [Linked List Cycle (LeetCode #141)](https://leetcode.com/problems/linked-list-cycle/)
+      - [Happy Number (LeetCode #202)](https://leetcode.com/problems/happy-number/)
+      - [Middle of the Linked List (LeetCode #876)](https://leetcode.com/problems/middle-of-the-linked-list/)
+      - [Linked List Cycle II (LeetCode #142)](https://leetcode.com/problems/linked-list-cycle-ii/)
+      - [Find the Duplicate Number (LeetCode #287)](https://leetcode.com/problems/find-the-duplicate-number/)
+      - [Reorder List (LeetCode #143)](https://leetcode.com/problems/reorder-list/)
+      - [Reverse Linked List II (LeetCode #92)](https://leetcode.com/problems/reverse-linked-list-ii/)
+      - [Split Linked List in Parts (LeetCode #725)](https://leetcode.com/problems/split-linked-list-in-parts/)
+      - [Find the Duplicate Number II (LeetCode #xxx)](https://leetcode.com/problems/find-the-duplicate-number-ii/)
+      - [Leftmost Column with at Least a One (LeetCode #1428)](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)
+
 
 ### **5. LinkedList In-place Reversal Pattern**
    - **Concept**: Reverse linked lists or portions of them in-place.
