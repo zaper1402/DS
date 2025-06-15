@@ -67,19 +67,22 @@
       - [Middle of the Linked List (LeetCode #876)](https://leetcode.com/problems/middle-of-the-linked-list/)
       - [Linked List Cycle II (LeetCode #142)](https://leetcode.com/problems/linked-list-cycle-ii/)
       - [Find the Duplicate Number (LeetCode #287)](https://leetcode.com/problems/find-the-duplicate-number/)
-      - [Reorder List (LeetCode #143)](https://leetcode.com/problems/reorder-list/)
-      - [Reverse Linked List II (LeetCode #92)](https://leetcode.com/problems/reverse-linked-list-ii/)
-      - [Split Linked List in Parts (LeetCode #725)](https://leetcode.com/problems/split-linked-list-in-parts/)
-      - [Find the Duplicate Number II (LeetCode #xxx)](https://leetcode.com/problems/find-the-duplicate-number-ii/)
-      - [Leftmost Column with at Least a One (LeetCode #1428)](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)
 
 
 ### **5. LinkedList In-place Reversal Pattern**
    - **Concept**: Reverse linked lists or portions of them in-place.
    - **Example Problems**:
-     - [Reverse Linked List (LeetCode #206)](https://leetcode.com/problems/reverse-linked-list/)
-     - [Reverse Linked List II (LeetCode #92)](https://leetcode.com/problems/reverse-linked-list-ii/)
-     - [Swap Nodes in Pairs (LeetCode #24)](https://leetcode.com/problems/swap-nodes-in-pairs/)
+      - [Reverse Linked List (LeetCode #206)](https://leetcode.com/problems/reverse-linked-list/)
+      - [Reverse Linked List II (LeetCode #92)](https://leetcode.com/problems/reverse-linked-list-ii/)
+      - [Swap Nodes in Pairs (LeetCode #24)](https://leetcode.com/problems/swap-nodes-in-pairs/)
+      - [Reorder List (LeetCode #143)](https://leetcode.com/problems/reorder-list/)
+      - [Split Linked List in Parts (LeetCode #725)](https://leetcode.com/problems/split-linked-list-in-parts/)
+      - [Rotate List (LeetCode #61)](https://leetcode.com/problems/rotate-list/)
+      - [Palindrome Linked List (LeetCode #234)](https://leetcode.com/problems/palindrome-linked-list/)
+      - [Odd Even Linked List (LeetCode #328)](https://leetcode.com/problems/odd-even-linked-list/)
+      - [Reverse Nodes in k‑Group (LeetCode #25)](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+      - [Merge k Sorted Lists (LeetCode #23)](https://leetcode.com/problems/merge-k-sorted-lists/)
+
 
 ### **6. Monotonic Stack Pattern**
    - **Concept**: Maintain a stack with elements in monotonic order.
