@@ -87,9 +87,17 @@
 ### **6. Monotonic Stack Pattern**
    - **Concept**: Maintain a stack with elements in monotonic order.
    - **Example Problems**:
-     - [Next Greater Element I (LeetCode #496)](https://leetcode.com/problems/next-greater-element-i/)
-     - [Daily Temperatures (LeetCode #739)](https://leetcode.com/problems/daily-temperatures/)
-     - [Largest Rectangle in Histogram (LeetCode #84)](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+      - [Next Greater Element I (LeetCode #496)](https://leetcode.com/problems/next-greater-element-i/)
+      - [Daily Temperatures (LeetCode #739)](https://leetcode.com/problems/daily-temperatures/)
+      - [Next Greater Element II (LeetCode #503)](https://leetcode.com/problems/next-greater-element-ii/)
+      - [Online Stock Span (LeetCode #901)](https://leetcode.com/problems/online-stock-span/)
+      - [Largest Rectangle in Histogram (LeetCode #84)](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+      - [Trapping Rain Water (LeetCode #42)](https://leetcode.com/problems/trapping-rain-water/)
+      - [Sum of Subarray Minimums (LeetCode #907)](https://leetcode.com/problems/sum-of-subarray-minimums/)
+      - [Maximal Rectangle (LeetCode #85)](https://leetcode.com/problems/maximal-rectangle/)
+      - [132 Pattern (LeetCode #456)](https://leetcode.com/problems/132-pattern/)
+      - [Sum of Subarray Ranges (LeetCode #2104)](https://leetcode.com/problems/sum-of-subarray-ranges/)
+
 
 ### **7. Top 'K' Elements Pattern**
    - **Concept**: Find or manipulate K elements based on certain criteria.
