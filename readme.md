@@ -102,9 +102,17 @@
 ### **7. Top 'K' Elements Pattern**
    - **Concept**: Find or manipulate K elements based on certain criteria.
    - **Example Problems**:
-     - [Kth Largest Element in an Array (LeetCode #215)](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-     - [Top K Frequent Elements (LeetCode #347)](https://leetcode.com/problems/top-k-frequent-elements/)
-     - [Find K Pairs with Smallest Sums (LeetCode #373)](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
+      - [Kth Largest Element in an Array (LeetCode #215)](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+      - [Top K Frequent Elements (LeetCode #347)](https://leetcode.com/problems/top-k-frequent-elements/)
+      - [K Closest Points to Origin (LeetCode #973)](https://leetcode.com/problems/k-closest-points-to-origin/)
+      - [Find K Pairs with Smallest Sums (LeetCode #373)](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
+      - [Top K Frequent Words (LeetCode #692)](https://leetcode.com/problems/top-k-frequent-words/)
+      - [Kth Smallest Pair Distance (LeetCode #719)](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)
+      - [Kth Smallest Element in a Sorted Matrix (LeetCode #378)](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+      - [Find K-th Smallest Sum of a 3-Sorted Arrays (a harder variant – #2614)](https://leetcode.com/problems/k-th-smallest-sum-in-a-matrix)
+      - [Sliding Window Median (LeetCode #480)](https://leetcode.com/problems/sliding-window-median/)
+      - [Find the K-th Largest XOR Coordinate Value (LeetCode #1738)](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)
+
 
 ### **8. Overlapping Intervals Pattern**
    - **Concept**: Handle intervals that may overlap with each other.
